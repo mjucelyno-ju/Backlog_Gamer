@@ -16,7 +16,7 @@ namespace Backlog_Gamer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormularioInicial());
+            Application.Run(new FormInicial());
         }
     }
 }

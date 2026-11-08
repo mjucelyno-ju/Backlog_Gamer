@@ -10,26 +10,39 @@ using System.Windows.Forms;
 
 namespace Backlog_Gamer
 {
-    public partial class FormularioInicial : Form
+    public partial class FormInicial : Form
     {
-        public FormularioInicial()
+        public FormInicial()
         {
             InitializeComponent();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Close(); 
+            Application.Exit();
         }
         public void AbrirFormularioCadastro()
-        {//oi
+        {
             FormCadastro formCadastro = new FormCadastro();
-            formCadastro.ShowDialog();
+            formCadastro.MdiParent = this;
+            formCadastro.Show();
         }
 
         private void novoCadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AbrirFormularioCadastro();
+        }
+
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listagemDeJogosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormListagem frm = new FormListagem();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }
