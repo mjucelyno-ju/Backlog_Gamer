@@ -1,0 +1,11 @@
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Backlog_Gamer.exe.config
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Backlog_Gamer.exe
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Backlog_Gamer.pdb
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.csproj.AssemblyReference.cache
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormularioInicial.resources
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.Properties.Resources.resources
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.csproj.GenerateResource.cache
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.csproj.CoreCompileInputs.cache
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.exe
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.pdb
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormCadastro.resources
