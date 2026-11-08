@@ -52,12 +52,19 @@
     <Compile Include="FormCadastro.Designer.cs">
       <DependentUpon>FormCadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormListagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListagem.Designer.cs">
+      <DependentUpon>FormListagem.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioInicial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioInicial.Designer.cs">
       <DependentUpon>FormularioInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Jogo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormCadastro.resx">
