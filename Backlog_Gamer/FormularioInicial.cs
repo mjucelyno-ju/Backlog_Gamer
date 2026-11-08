@@ -22,7 +22,7 @@ namespace Backlog_Gamer
             Close(); 
         }
         public void AbrirFormularioCadastro()
-        {
+        {//oi
             FormCadastro formCadastro = new FormCadastro();
             formCadastro.ShowDialog();
         }
@@ -30,7 +30,6 @@ namespace Backlog_Gamer
         private void novoCadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AbrirFormularioCadastro();
-        
         }
     }
 }
