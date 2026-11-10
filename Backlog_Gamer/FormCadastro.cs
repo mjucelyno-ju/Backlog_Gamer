@@ -17,6 +17,7 @@ namespace Backlog_Gamer
         public FormCadastro()
         {
             InitializeComponent();
+            nudCodigo.Leave += nudCodigo_Leave;
         }
 
         private void FormCadastro_Load(object sender, EventArgs e)
