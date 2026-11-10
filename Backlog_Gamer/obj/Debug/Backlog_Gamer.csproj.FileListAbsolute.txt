@@ -12,3 +12,18 @@ C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Newtonsoft.Jso
 C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Newtonsoft.Json.xml
 C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormInicial.resources
 C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_.18432C64.Up2Date
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Backlog_Gamer.exe.config
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Backlog_Gamer.exe
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Backlog_Gamer.pdb
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.csproj.AssemblyReference.cache
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormCadastro.resources
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormInicial.resources
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.Properties.Resources.resources
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.csproj.GenerateResource.cache
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.csproj.CoreCompileInputs.cache
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_.18432C64.Up2Date
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.exe
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.pdb
+C:\Users\Ikaro Santos\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormListagem.resources

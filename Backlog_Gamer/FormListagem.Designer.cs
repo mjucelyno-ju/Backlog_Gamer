@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dgvJogos = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJogos)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgvJogos
+            // 
+            this.dgvJogos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJogos.Location = new System.Drawing.Point(199, 137);
+            this.dgvJogos.Name = "dgvJogos";
+            this.dgvJogos.Size = new System.Drawing.Size(240, 150);
+            this.dgvJogos.TabIndex = 0;
+            this.dgvJogos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvJogos_CellContentClick);
+            // 
+            // FormListagem
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dgvJogos);
+            this.Name = "FormListagem";
             this.Text = "FormListagem";
+            this.Load += new System.EventHandler(this.FormListagem_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJogos)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dgvJogos;
     }
 }
