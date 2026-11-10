@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,36 +38,37 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            this.nudCodigo = new System.Windows.Forms.NumericUpDown();
+            this.txtTitulo = new System.Windows.Forms.TextBox();
+            this.cboPlataforma = new System.Windows.Forms.ComboBox();
+            this.cboGenero = new System.Windows.Forms.ComboBox();
+            this.nudNota = new System.Windows.Forms.NumericUpDown();
+            this.chkZerado = new System.Windows.Forms.CheckBox();
+            this.dtpAquisicao = new System.Windows.Forms.DateTimePicker();
+            this.nudHoras = new System.Windows.Forms.NumericUpDown();
+            this.btnNovo = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCodigo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNota)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudHoras)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnSalvar
             // 
-            this.button1.Location = new System.Drawing.Point(202, 396);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Salvar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSalvar.Location = new System.Drawing.Point(202, 396);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(75, 23);
+            this.btnSalvar.TabIndex = 0;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnExcluir
             // 
-            this.button2.Location = new System.Drawing.Point(319, 396);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Excluir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnExcluir.Location = new System.Drawing.Point(319, 396);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(75, 23);
+            this.btnExcluir.TabIndex = 1;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -141,85 +142,102 @@
             this.label8.TabIndex = 9;
             this.label8.Text = "Horas jogadas";
             // 
-            // numericUpDown1
+            // nudCodigo
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(318, 48);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.nudCodigo.Location = new System.Drawing.Point(318, 48);
+            this.nudCodigo.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 10;
+            this.nudCodigo.Name = "nudCodigo";
+            this.nudCodigo.Size = new System.Drawing.Size(120, 20);
+            this.nudCodigo.TabIndex = 10;
             // 
-            // textBox1
+            // txtTitulo
             // 
-            this.textBox1.Location = new System.Drawing.Point(318, 87);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 11;
+            this.txtTitulo.Location = new System.Drawing.Point(318, 87);
+            this.txtTitulo.Name = "txtTitulo";
+            this.txtTitulo.Size = new System.Drawing.Size(100, 20);
+            this.txtTitulo.TabIndex = 11;
             // 
-            // comboBox1
+            // cboPlataforma
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(317, 128);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 12;
+            this.cboPlataforma.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboPlataforma.FormattingEnabled = true;
+            this.cboPlataforma.Location = new System.Drawing.Point(317, 128);
+            this.cboPlataforma.Name = "cboPlataforma";
+            this.cboPlataforma.Size = new System.Drawing.Size(121, 21);
+            this.cboPlataforma.TabIndex = 12;
             // 
-            // comboBox2
+            // cboGenero
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(318, 169);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 13;
+            this.cboGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboGenero.FormattingEnabled = true;
+            this.cboGenero.Location = new System.Drawing.Point(318, 169);
+            this.cboGenero.Name = "cboGenero";
+            this.cboGenero.Size = new System.Drawing.Size(121, 21);
+            this.cboGenero.TabIndex = 13;
             // 
-            // numericUpDown2
+            // nudNota
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(317, 206);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown2.TabIndex = 14;
+            this.nudNota.DecimalPlaces = 1;
+            this.nudNota.Location = new System.Drawing.Point(317, 206);
+            this.nudNota.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.nudNota.Name = "nudNota";
+            this.nudNota.Size = new System.Drawing.Size(120, 20);
+            this.nudNota.TabIndex = 14;
             // 
-            // checkBox1
+            // chkZerado
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(317, 247);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 15;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkZerado.AutoSize = true;
+            this.chkZerado.Location = new System.Drawing.Point(317, 247);
+            this.chkZerado.Name = "chkZerado";
+            this.chkZerado.Size = new System.Drawing.Size(15, 14);
+            this.chkZerado.TabIndex = 15;
+            this.chkZerado.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dtpAquisicao
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(317, 294);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 16;
+            this.dtpAquisicao.Location = new System.Drawing.Point(317, 294);
+            this.dtpAquisicao.Name = "dtpAquisicao";
+            this.dtpAquisicao.Size = new System.Drawing.Size(200, 20);
+            this.dtpAquisicao.TabIndex = 16;
             // 
-            // numericUpDown3
+            // nudHoras
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(319, 342);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown3.TabIndex = 17;
+            this.nudHoras.Location = new System.Drawing.Point(319, 342);
+            this.nudHoras.Name = "nudHoras";
+            this.nudHoras.Size = new System.Drawing.Size(120, 20);
+            this.nudHoras.TabIndex = 17;
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.Location = new System.Drawing.Point(442, 396);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(75, 23);
+            this.btnNovo.TabIndex = 18;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = true;
             // 
             // FormCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.btnNovo);
+            this.Controls.Add(this.nudHoras);
+            this.Controls.Add(this.dtpAquisicao);
+            this.Controls.Add(this.chkZerado);
+            this.Controls.Add(this.nudNota);
+            this.Controls.Add(this.cboGenero);
+            this.Controls.Add(this.cboPlataforma);
+            this.Controls.Add(this.txtTitulo);
+            this.Controls.Add(this.nudCodigo);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -228,13 +246,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnSalvar);
             this.Name = "FormCadastro";
             this.Text = "FormCadastro";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            this.Load += new System.EventHandler(this.FormCadastro_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.nudCodigo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNota)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudHoras)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,8 +261,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -252,13 +271,14 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown nudCodigo;
+        private System.Windows.Forms.TextBox txtTitulo;
+        private System.Windows.Forms.ComboBox cboPlataforma;
+        private System.Windows.Forms.ComboBox cboGenero;
+        private System.Windows.Forms.NumericUpDown nudNota;
+        private System.Windows.Forms.CheckBox chkZerado;
+        private System.Windows.Forms.DateTimePicker dtpAquisicao;
+        private System.Windows.Forms.NumericUpDown nudHoras;
+        private System.Windows.Forms.Button btnNovo;
     }
 }
