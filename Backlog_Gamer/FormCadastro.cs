@@ -17,5 +17,9 @@ namespace Backlog_Gamer
             InitializeComponent();
         }
 
+        private void FormCadastro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
