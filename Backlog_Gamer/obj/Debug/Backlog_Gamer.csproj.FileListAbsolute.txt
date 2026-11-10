@@ -12,3 +12,4 @@ C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Newtonsoft.Jso
 C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\bin\Debug\Newtonsoft.Json.xml
 C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormInicial.resources
 C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_.18432C64.Up2Date
+C:\Users\jucel\source\repos\Backlog_Gamer\Backlog_Gamer\obj\Debug\Backlog_Gamer.FormListagem.resources

@@ -16,5 +16,24 @@ namespace Backlog_Gamer
         {
             InitializeComponent();
         }
+
+
+        private JogoRepositorio repo = new JogoRepositorio();
+
+        private void dgvJogos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FormListagem_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void FormListagem_Activated(object sender, EventArgs e)
+        {
+            dgvJogos.DataSource = null;
+            dgvJogos.DataSource = repo.Carregar();
+        }
     }
 }

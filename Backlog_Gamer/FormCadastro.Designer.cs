@@ -60,6 +60,7 @@
             this.btnSalvar.TabIndex = 0;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnExcluir
             // 
@@ -69,6 +70,7 @@
             this.btnExcluir.TabIndex = 1;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // label1
             // 
@@ -153,6 +155,8 @@
             this.nudCodigo.Name = "nudCodigo";
             this.nudCodigo.Size = new System.Drawing.Size(120, 20);
             this.nudCodigo.TabIndex = 10;
+            this.nudCodigo.ValueChanged += new System.EventHandler(this.nudCodigo_ValueChanged);
+            this.nudCodigo.Leave += new System.EventHandler(this.nudCodigo_Leave);
             // 
             // txtTitulo
             // 
@@ -160,6 +164,7 @@
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(100, 20);
             this.txtTitulo.TabIndex = 11;
+            this.txtTitulo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
             // 
             // cboPlataforma
             // 
@@ -169,6 +174,7 @@
             this.cboPlataforma.Name = "cboPlataforma";
             this.cboPlataforma.Size = new System.Drawing.Size(121, 21);
             this.cboPlataforma.TabIndex = 12;
+            this.cboPlataforma.SelectedIndexChanged += new System.EventHandler(this.cboPlataforma_SelectedIndexChanged);
             // 
             // cboGenero
             // 
@@ -178,6 +184,7 @@
             this.cboGenero.Name = "cboGenero";
             this.cboGenero.Size = new System.Drawing.Size(121, 21);
             this.cboGenero.TabIndex = 13;
+            this.cboGenero.SelectedIndexChanged += new System.EventHandler(this.cboGenero_SelectedIndexChanged);
             // 
             // nudNota
             // 
@@ -191,6 +198,7 @@
             this.nudNota.Name = "nudNota";
             this.nudNota.Size = new System.Drawing.Size(120, 20);
             this.nudNota.TabIndex = 14;
+            this.nudNota.ValueChanged += new System.EventHandler(this.nudNota_ValueChanged);
             // 
             // chkZerado
             // 
@@ -200,6 +208,7 @@
             this.chkZerado.Size = new System.Drawing.Size(15, 14);
             this.chkZerado.TabIndex = 15;
             this.chkZerado.UseVisualStyleBackColor = true;
+            this.chkZerado.CheckedChanged += new System.EventHandler(this.chkZerado_CheckedChanged);
             // 
             // dtpAquisicao
             // 
@@ -207,6 +216,7 @@
             this.dtpAquisicao.Name = "dtpAquisicao";
             this.dtpAquisicao.Size = new System.Drawing.Size(200, 20);
             this.dtpAquisicao.TabIndex = 16;
+            this.dtpAquisicao.ValueChanged += new System.EventHandler(this.dtpAquisicao_ValueChanged);
             // 
             // nudHoras
             // 
@@ -214,6 +224,7 @@
             this.nudHoras.Name = "nudHoras";
             this.nudHoras.Size = new System.Drawing.Size(120, 20);
             this.nudHoras.TabIndex = 17;
+            this.nudHoras.ValueChanged += new System.EventHandler(this.nudHoras_ValueChanged);
             // 
             // btnNovo
             // 
@@ -223,6 +234,7 @@
             this.btnNovo.TabIndex = 18;
             this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // FormCadastro
             // 
