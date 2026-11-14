@@ -261,6 +261,7 @@
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnSalvar);
             this.Name = "FormCadastro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCadastro";
             this.Load += new System.EventHandler(this.FormCadastro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudCodigo)).EndInit();

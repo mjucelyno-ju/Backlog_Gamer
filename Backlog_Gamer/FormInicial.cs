@@ -17,6 +17,7 @@ namespace Backlog_Gamer
             InitializeComponent();
         }
 
+
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -33,7 +34,7 @@ namespace Backlog_Gamer
 
         private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioCadastro();
         }
 
         private void listagemDeJogosToolStripMenuItem_Click(object sender, EventArgs e)

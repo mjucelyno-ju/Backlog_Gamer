@@ -35,11 +35,15 @@
             // dgvJogos
             // 
             this.dgvJogos.AllowUserToAddRows = false;
+            this.dgvJogos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvJogos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvJogos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvJogos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvJogos.Location = new System.Drawing.Point(0, 0);
             this.dgvJogos.Name = "dgvJogos";
             this.dgvJogos.ReadOnly = true;
+            this.dgvJogos.RowHeadersVisible = false;
+            this.dgvJogos.RowTemplate.ReadOnly = true;
             this.dgvJogos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvJogos.Size = new System.Drawing.Size(800, 450);
             this.dgvJogos.TabIndex = 0;
@@ -51,6 +55,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgvJogos);
             this.Name = "FormListagem";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormListagem";
             this.Activated += new System.EventHandler(this.FormListagem_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJogos)).EndInit();
