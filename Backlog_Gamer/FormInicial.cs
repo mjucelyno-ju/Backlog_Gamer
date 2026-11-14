@@ -23,9 +23,7 @@ namespace Backlog_Gamer
         }
         public void AbrirFormularioCadastro()
         {
-            FormCadastro formCadastro = new FormCadastro();
-            formCadastro.MdiParent = this;
-            formCadastro.Show();
+            AbrirFormularioUnico(new FormCadastro());
         }
 
         private void novoCadastroToolStripMenuItem_Click(object sender, EventArgs e)
@@ -40,9 +38,22 @@ namespace Backlog_Gamer
 
         private void listagemDeJogosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormListagem frm = new FormListagem();
-            frm.MdiParent = this;
-            frm.Show();
+            AbrirFormularioUnico(new FormListagem());
+        }
+
+        private void FormInicial_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AbrirFormularioUnico(Form novoFormulario)
+        {
+            foreach (Form formAbertos in this.MdiChildren)
+            {
+                formAbertos.Close();
+            }
+            novoFormulario.MdiParent = this;
+            novoFormulario.Show();
         }
     }
 }
