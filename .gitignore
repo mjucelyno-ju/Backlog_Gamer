@@ -485,3 +485,23 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Application-specific files
+jogos.json
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE specific files (Visual Studio 2026)
+.vs/
+.vscode/
+.idea/
+*.vssettings
+
+# Designer generated files backup
+*.Designer.cs.bak
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
