@@ -63,14 +63,14 @@
             // novoCadastroToolStripMenuItem
             // 
             this.novoCadastroToolStripMenuItem.Name = "novoCadastroToolStripMenuItem";
-            this.novoCadastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoCadastroToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.novoCadastroToolStripMenuItem.Text = "NovoCadastro";
             this.novoCadastroToolStripMenuItem.Click += new System.EventHandler(this.novoCadastroToolStripMenuItem_Click);
             // 
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.loginToolStripMenuItem.Text = "Login";
             // 
             // listagemDeJogosToolStripMenuItem
