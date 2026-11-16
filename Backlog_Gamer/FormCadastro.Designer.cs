@@ -28,16 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastro));
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.Codigo = new System.Windows.Forms.Label();
+            this.Titulo = new System.Windows.Forms.Label();
+            this.Plataforma = new System.Windows.Forms.Label();
+            this.Genero = new System.Windows.Forms.Label();
+            this.Nota = new System.Windows.Forms.Label();
+            this.Zerado = new System.Windows.Forms.Label();
+            this.DataAqui = new System.Windows.Forms.Label();
+            this.HorasJo = new System.Windows.Forms.Label();
             this.nudCodigo = new System.Windows.Forms.NumericUpDown();
             this.txtTitulo = new System.Windows.Forms.TextBox();
             this.cboPlataforma = new System.Windows.Forms.ComboBox();
@@ -72,81 +73,105 @@
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // label1
+            // Codigo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(184, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Código";
+            this.Codigo.AutoSize = true;
+            this.Codigo.BackColor = System.Drawing.Color.Transparent;
+            this.Codigo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Codigo.ForeColor = System.Drawing.Color.White;
+            this.Codigo.Location = new System.Drawing.Point(184, 48);
+            this.Codigo.Name = "Codigo";
+            this.Codigo.Size = new System.Drawing.Size(51, 17);
+            this.Codigo.TabIndex = 2;
+            this.Codigo.Text = "Código";
             // 
-            // label2
+            // Titulo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(184, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Título";
+            this.Titulo.AutoSize = true;
+            this.Titulo.BackColor = System.Drawing.Color.Transparent;
+            this.Titulo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titulo.ForeColor = System.Drawing.Color.White;
+            this.Titulo.Location = new System.Drawing.Point(184, 87);
+            this.Titulo.Name = "Titulo";
+            this.Titulo.Size = new System.Drawing.Size(40, 17);
+            this.Titulo.TabIndex = 3;
+            this.Titulo.Text = "Título";
             // 
-            // label3
+            // Plataforma
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(184, 131);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Plataforma";
+            this.Plataforma.AutoSize = true;
+            this.Plataforma.BackColor = System.Drawing.Color.Transparent;
+            this.Plataforma.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Plataforma.ForeColor = System.Drawing.Color.White;
+            this.Plataforma.Location = new System.Drawing.Point(184, 131);
+            this.Plataforma.Name = "Plataforma";
+            this.Plataforma.Size = new System.Drawing.Size(71, 17);
+            this.Plataforma.TabIndex = 4;
+            this.Plataforma.Text = "Plataforma";
             // 
-            // label4
+            // Genero
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(184, 169);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Gênero";
+            this.Genero.AutoSize = true;
+            this.Genero.BackColor = System.Drawing.Color.Transparent;
+            this.Genero.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Genero.ForeColor = System.Drawing.Color.White;
+            this.Genero.Location = new System.Drawing.Point(184, 169);
+            this.Genero.Name = "Genero";
+            this.Genero.Size = new System.Drawing.Size(51, 17);
+            this.Genero.TabIndex = 5;
+            this.Genero.Text = "Gênero";
             // 
-            // label5
+            // Nota
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(184, 208);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Nota";
+            this.Nota.AutoSize = true;
+            this.Nota.BackColor = System.Drawing.Color.Transparent;
+            this.Nota.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nota.ForeColor = System.Drawing.Color.White;
+            this.Nota.Location = new System.Drawing.Point(184, 208);
+            this.Nota.Name = "Nota";
+            this.Nota.Size = new System.Drawing.Size(37, 17);
+            this.Nota.TabIndex = 6;
+            this.Nota.Text = "Nota";
             // 
-            // label6
+            // Zerado
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(185, 247);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Zerado";
+            this.Zerado.AutoSize = true;
+            this.Zerado.BackColor = System.Drawing.Color.Transparent;
+            this.Zerado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zerado.ForeColor = System.Drawing.Color.White;
+            this.Zerado.Location = new System.Drawing.Point(185, 247);
+            this.Zerado.Name = "Zerado";
+            this.Zerado.Size = new System.Drawing.Size(51, 16);
+            this.Zerado.TabIndex = 7;
+            this.Zerado.Text = "Zerado";
             // 
-            // label7
+            // DataAqui
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(184, 294);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 13);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Data de aquisição";
+            this.DataAqui.AutoSize = true;
+            this.DataAqui.BackColor = System.Drawing.Color.Transparent;
+            this.DataAqui.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataAqui.ForeColor = System.Drawing.Color.White;
+            this.DataAqui.Location = new System.Drawing.Point(184, 294);
+            this.DataAqui.Name = "DataAqui";
+            this.DataAqui.Size = new System.Drawing.Size(114, 17);
+            this.DataAqui.TabIndex = 8;
+            this.DataAqui.Text = "Data de Aquisição";
             // 
-            // label8
+            // HorasJo
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(184, 344);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 13);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Horas jogadas";
+            this.HorasJo.AutoSize = true;
+            this.HorasJo.BackColor = System.Drawing.Color.Transparent;
+            this.HorasJo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HorasJo.ForeColor = System.Drawing.Color.White;
+            this.HorasJo.Location = new System.Drawing.Point(184, 341);
+            this.HorasJo.Name = "HorasJo";
+            this.HorasJo.Size = new System.Drawing.Size(96, 17);
+            this.HorasJo.TabIndex = 9;
+            this.HorasJo.Text = "Horas Jogadas";
             // 
             // nudCodigo
             // 
-            this.nudCodigo.Location = new System.Drawing.Point(318, 48);
+            this.nudCodigo.Location = new System.Drawing.Point(337, 48);
             this.nudCodigo.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -160,7 +185,7 @@
             // 
             // txtTitulo
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(318, 87);
+            this.txtTitulo.Location = new System.Drawing.Point(336, 87);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(100, 20);
             this.txtTitulo.TabIndex = 11;
@@ -170,7 +195,7 @@
             // 
             this.cboPlataforma.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboPlataforma.FormattingEnabled = true;
-            this.cboPlataforma.Location = new System.Drawing.Point(317, 128);
+            this.cboPlataforma.Location = new System.Drawing.Point(336, 127);
             this.cboPlataforma.Name = "cboPlataforma";
             this.cboPlataforma.Size = new System.Drawing.Size(121, 21);
             this.cboPlataforma.TabIndex = 12;
@@ -180,7 +205,7 @@
             // 
             this.cboGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboGenero.FormattingEnabled = true;
-            this.cboGenero.Location = new System.Drawing.Point(318, 169);
+            this.cboGenero.Location = new System.Drawing.Point(336, 169);
             this.cboGenero.Name = "cboGenero";
             this.cboGenero.Size = new System.Drawing.Size(121, 21);
             this.cboGenero.TabIndex = 13;
@@ -189,7 +214,7 @@
             // nudNota
             // 
             this.nudNota.DecimalPlaces = 1;
-            this.nudNota.Location = new System.Drawing.Point(317, 206);
+            this.nudNota.Location = new System.Drawing.Point(337, 205);
             this.nudNota.Maximum = new decimal(new int[] {
             10,
             0,
@@ -203,7 +228,7 @@
             // chkZerado
             // 
             this.chkZerado.AutoSize = true;
-            this.chkZerado.Location = new System.Drawing.Point(317, 247);
+            this.chkZerado.Location = new System.Drawing.Point(337, 249);
             this.chkZerado.Name = "chkZerado";
             this.chkZerado.Size = new System.Drawing.Size(15, 14);
             this.chkZerado.TabIndex = 15;
@@ -212,15 +237,17 @@
             // 
             // dtpAquisicao
             // 
-            this.dtpAquisicao.Location = new System.Drawing.Point(317, 294);
+            this.dtpAquisicao.Location = new System.Drawing.Point(337, 294);
+            this.dtpAquisicao.MaxDate = new System.DateTime(4026, 11, 15, 0, 0, 0, 0);
             this.dtpAquisicao.Name = "dtpAquisicao";
             this.dtpAquisicao.Size = new System.Drawing.Size(200, 20);
             this.dtpAquisicao.TabIndex = 16;
+            this.dtpAquisicao.Value = new System.DateTime(2026, 11, 15, 0, 0, 0, 0);
             this.dtpAquisicao.ValueChanged += new System.EventHandler(this.dtpAquisicao_ValueChanged);
             // 
             // nudHoras
             // 
-            this.nudHoras.Location = new System.Drawing.Point(319, 342);
+            this.nudHoras.Location = new System.Drawing.Point(337, 341);
             this.nudHoras.Name = "nudHoras";
             this.nudHoras.Size = new System.Drawing.Size(120, 20);
             this.nudHoras.TabIndex = 17;
@@ -240,6 +267,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.nudHoras);
@@ -250,14 +278,14 @@
             this.Controls.Add(this.cboPlataforma);
             this.Controls.Add(this.txtTitulo);
             this.Controls.Add(this.nudCodigo);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.HorasJo);
+            this.Controls.Add(this.DataAqui);
+            this.Controls.Add(this.Zerado);
+            this.Controls.Add(this.Nota);
+            this.Controls.Add(this.Genero);
+            this.Controls.Add(this.Plataforma);
+            this.Controls.Add(this.Titulo);
+            this.Controls.Add(this.Codigo);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnSalvar);
             this.Name = "FormCadastro";
@@ -276,14 +304,14 @@
 
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label Codigo;
+        private System.Windows.Forms.Label Titulo;
+        private System.Windows.Forms.Label Plataforma;
+        private System.Windows.Forms.Label Genero;
+        private System.Windows.Forms.Label Nota;
+        private System.Windows.Forms.Label Zerado;
+        private System.Windows.Forms.Label DataAqui;
+        private System.Windows.Forms.Label HorasJo;
         private System.Windows.Forms.NumericUpDown nudCodigo;
         private System.Windows.Forms.TextBox txtTitulo;
         private System.Windows.Forms.ComboBox cboPlataforma;
