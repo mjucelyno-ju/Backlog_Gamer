@@ -248,6 +248,11 @@
             // nudHoras
             // 
             this.nudHoras.Location = new System.Drawing.Point(337, 341);
+            this.nudHoras.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.nudHoras.Name = "nudHoras";
             this.nudHoras.Size = new System.Drawing.Size(120, 20);
             this.nudHoras.TabIndex = 17;
