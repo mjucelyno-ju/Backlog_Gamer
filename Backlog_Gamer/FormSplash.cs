@@ -22,5 +22,7 @@ namespace Backlog_Gamer
             TimSplash.Stop();
             Close();
         }
+
+       
     }
 }

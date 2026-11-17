@@ -293,6 +293,7 @@
             this.Controls.Add(this.Codigo);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnSalvar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormCadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCadastro";
