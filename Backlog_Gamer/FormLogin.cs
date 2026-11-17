@@ -38,5 +38,20 @@ namespace Backlog_Gamer
                 txtSenha.Focus();
             }
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEntrar_MouseEnter(object sender, EventArgs e)
+        {
+            btnEntrar.Font = new Font(btnEntrar.Font.FontFamily, 18, FontStyle.Bold);
+        }
+
+        private void btnEntrar_MouseLeave(object sender, EventArgs e)
+        {
+            btnEntrar.Font = new Font(btnEntrar.Font.FontFamily, 15.75f, FontStyle.Bold);
+        }
     }
 }

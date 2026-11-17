@@ -69,5 +69,10 @@ namespace Backlog_Gamer
             //Formata data para não exibir tempo
             dgvJogos.Columns["DataAquisicao"].DefaultCellStyle.Format = "dd/MM/yyyy";
         }
+
+        private void FormListagem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

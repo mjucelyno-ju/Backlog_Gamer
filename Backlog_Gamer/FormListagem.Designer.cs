@@ -60,6 +60,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormListagem";
             this.Activated += new System.EventHandler(this.FormListagem_Activated);
+            this.Load += new System.EventHandler(this.FormListagem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJogos)).EndInit();
             this.ResumeLayout(false);
 
