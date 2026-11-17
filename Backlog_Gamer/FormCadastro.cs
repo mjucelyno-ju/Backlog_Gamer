@@ -61,7 +61,7 @@ namespace Backlog_Gamer
             int codigo = (int)nudCodigo.Value;
             Jogo jogo = lista.Find(j => j.Codigo == codigo);
 
-            // novo: adiciona
+            //  novo: adiciona
 
             if (jogo == null)           
                
@@ -69,9 +69,9 @@ namespace Backlog_Gamer
                 jogo = new Jogo();
                 jogo.Codigo = codigo;
                 lista.Add(jogo);
-            }        
-            
-            // existente: atualiza o mesmo objeto
+            }
+
+            // atualiza o mesmo objeto ja existente na lista.
 
             jogo.Titulo = txtTitulo.Text.Trim();
             jogo.Plataforma = (Plataforma)cboPlataforma.SelectedItem;
