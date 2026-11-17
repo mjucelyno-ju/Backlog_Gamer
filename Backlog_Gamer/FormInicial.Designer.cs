@@ -82,6 +82,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormInicial";
             this.Text = "Backlog Gamer";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormInicial_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
