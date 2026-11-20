@@ -12,9 +12,14 @@ namespace Backlog_Gamer
 {
     public partial class FormLogin : Form
     {
+        
         public FormLogin()
         {
             InitializeComponent();
+
+            btnEntrar.Font = FonteHelper.ObterFonte(15.75f, FontStyle.Bold);
+            Usuario.Font = FonteHelper.ObterFonte(9f);
+            lblSenha.Font = FonteHelper.ObterFonte(9f);
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
