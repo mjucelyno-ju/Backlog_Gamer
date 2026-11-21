@@ -29,9 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormListagem));
+            this.pnlGrid = new System.Windows.Forms.Panel();
             this.dgvJogos = new System.Windows.Forms.DataGridView();
+            this.pnlGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJogos)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pnlGrid
+            // 
+            this.pnlGrid.Controls.Add(this.dgvJogos);
+            this.pnlGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlGrid.Location = new System.Drawing.Point(0, 0);
+            this.pnlGrid.Margin = new System.Windows.Forms.Padding(20);
+            this.pnlGrid.Name = "pnlGrid";
+            this.pnlGrid.Size = new System.Drawing.Size(800, 450);
+            this.pnlGrid.TabIndex = 1;
             // 
             // dgvJogos
             // 
@@ -47,7 +59,7 @@
             this.dgvJogos.RowTemplate.ReadOnly = true;
             this.dgvJogos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvJogos.Size = new System.Drawing.Size(800, 450);
-            this.dgvJogos.TabIndex = 0;
+            this.dgvJogos.TabIndex = 1;
             // 
             // FormListagem
             // 
@@ -55,20 +67,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dgvJogos);
+            this.Controls.Add(this.pnlGrid);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormListagem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormListagem";
             this.Activated += new System.EventHandler(this.FormListagem_Activated);
             this.Load += new System.EventHandler(this.FormListagem_Load);
+            this.pnlGrid.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJogos)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
+        private System.Windows.Forms.Panel pnlGrid;
         private System.Windows.Forms.DataGridView dgvJogos;
     }
 }

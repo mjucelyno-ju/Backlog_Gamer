@@ -12,6 +12,8 @@ namespace Backlog_Gamer
         {
             InitializeComponent();
             EstilizarGrid();
+
+            pnlGrid.BackColor = Color.FromArgb(180, 8, 12, 32);
         }
 
         private void FormListagem_Activated(object sender, EventArgs e)
