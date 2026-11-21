@@ -21,6 +21,10 @@ namespace Backlog_Gamer
             dgvJogos.DataSource = null;
             dgvJogos.DataSource = repo.Carregar();
             ConfigurarColunas();
+
+            int altura = dgvJogos.ColumnHeadersHeight
+             + dgvJogos.Rows.Count * dgvJogos.RowTemplate.Height + 2;
+            dgvJogos.Height = Math.Min(altura, pnlGrid.ClientSize.Height);
         }
 
         private void EstilizarGrid()

@@ -37,12 +37,14 @@
             // 
             // pnlGrid
             // 
+            this.pnlGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlGrid.Controls.Add(this.dgvJogos);
-            this.pnlGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlGrid.Location = new System.Drawing.Point(0, 0);
+            this.pnlGrid.Location = new System.Drawing.Point(30, 30);
             this.pnlGrid.Margin = new System.Windows.Forms.Padding(20);
             this.pnlGrid.Name = "pnlGrid";
-            this.pnlGrid.Size = new System.Drawing.Size(800, 450);
+            this.pnlGrid.Size = new System.Drawing.Size(740, 390);
             this.pnlGrid.TabIndex = 1;
             // 
             // dgvJogos
@@ -51,14 +53,14 @@
             this.dgvJogos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvJogos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvJogos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvJogos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvJogos.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgvJogos.Location = new System.Drawing.Point(0, 0);
             this.dgvJogos.Name = "dgvJogos";
             this.dgvJogos.ReadOnly = true;
             this.dgvJogos.RowHeadersVisible = false;
             this.dgvJogos.RowTemplate.ReadOnly = true;
             this.dgvJogos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvJogos.Size = new System.Drawing.Size(800, 450);
+            this.dgvJogos.Size = new System.Drawing.Size(740, 450);
             this.dgvJogos.TabIndex = 1;
             // 
             // FormListagem
@@ -66,6 +68,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pnlGrid);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
