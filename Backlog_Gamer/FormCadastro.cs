@@ -18,12 +18,29 @@ namespace Backlog_Gamer
         {
             InitializeComponent();
             nudCodigo.Leave += nudCodigo_Leave;
+
+            pnlCampos.BackColor = Color.FromArgb(180, 8, 12, 32); // 180 = opacidade
+            this.DoubleBuffered = true; // evita piscar
+
+            EstilizarBotao(btnSalvar, Color.FromArgb(70, 130, 90));   // verde
+            EstilizarBotao(btnExcluir, Color.FromArgb(190, 60, 60));   // vermelho
+            EstilizarBotao(btnNovo, Color.FromArgb(90, 100, 150));  // azul-acinzentado
         }
 
         private void FormCadastro_Load(object sender, EventArgs e)
         {
             cboPlataforma.DataSource = Enum.GetValues(typeof(Plataforma));
             cboGenero.DataSource = Enum.GetValues(typeof(Genero));
+        }
+
+        private void EstilizarBotao(Button btnsavar, Color cor)
+        {
+            btnsavar.FlatStyle = FlatStyle.Flat;
+            btnsavar.FlatAppearance.BorderSize = 0;
+            btnsavar.BackColor = cor;
+            btnsavar.ForeColor = Color.White;
+            btnsavar.Cursor = Cursors.Hand;
+            btnsavar.Font = new Font("Segoe UI", 9.5f, FontStyle.Bold);
         }
 
         // Ao sair do campo Código, busca o jogo e preenche a tela
