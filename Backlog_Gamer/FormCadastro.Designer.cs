@@ -90,6 +90,7 @@
             this.btnNovo.TabIndex = 37;
             this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // nudHoras
             // 
@@ -276,6 +277,7 @@
             this.btnExcluir.TabIndex = 20;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnSalvar
             // 
@@ -285,6 +287,7 @@
             this.btnSalvar.TabIndex = 19;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // FormCadastro
             // 
