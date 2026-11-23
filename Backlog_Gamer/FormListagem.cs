@@ -29,7 +29,7 @@ namespace Backlog_Gamer
 
         private void EstilizarGrid()
         {
-            // Desativa o estilo padrão do Windows
+            // Desativa o estilo padrão do Windows.
             dgvJogos.EnableHeadersVisualStyles = false;
 
             // Estilo do Cabeçalho

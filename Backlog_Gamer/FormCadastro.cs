@@ -33,14 +33,14 @@ namespace Backlog_Gamer
             cboGenero.DataSource = Enum.GetValues(typeof(Genero));
         }
 
-        private void EstilizarBotao(Button btnsavar, Color cor)
+        private void EstilizarBotao(Button btn, Color cor)
         {
-            btnsavar.FlatStyle = FlatStyle.Flat;
-            btnsavar.FlatAppearance.BorderSize = 0;
-            btnsavar.BackColor = cor;
-            btnsavar.ForeColor = Color.White;
-            btnsavar.Cursor = Cursors.Hand;
-            btnsavar.Font = new Font("Segoe UI", 9.5f, FontStyle.Bold);
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.FlatAppearance.BorderSize = 0;
+            btn.BackColor = cor;
+            btn.ForeColor = Color.White;
+            btn.Cursor = Cursors.Hand;
+            btn.Font = new Font("Segoe UI", 9.5f, FontStyle.Bold);
         }
 
         // Ao sair do campo Código, busca o jogo e preenche a tela
@@ -146,15 +146,5 @@ namespace Backlog_Gamer
             nudHoras.Value = 0;
             nudCodigo.Focus();
         }
-
-        // Métodos gerados pelo designer.
-        private void nudCodigo_ValueChanged(object sender, EventArgs e) { }
-        private void txtTitulo_TextChanged(object sender, EventArgs e) { }
-        private void cboPlataforma_SelectedIndexChanged(object sender, EventArgs e) { }
-        private void cboGenero_SelectedIndexChanged(object sender, EventArgs e) { }
-        private void nudNota_ValueChanged(object sender, EventArgs e) { }
-        private void chkZerado_CheckedChanged(object sender, EventArgs e) { }
-        private void dtpAquisicao_ValueChanged(object sender, EventArgs e) { }
-        private void nudHoras_ValueChanged(object sender, EventArgs e) { }
     }
 }
